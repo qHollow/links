@@ -1,26 +1,23 @@
 import React from 'react';
-import Document, { Html, Head, Main, NextScript } from 'next/document';
-import { CssBaseline } from '@nextui-org/react';
+import { Head, Html, Main, NextScript } from 'next/document';
 
 const MyDocument = () => {
 	return (
 		<Html lang="ru">
 			<title>Links</title>
-			<Head>{CssBaseline.flush()}</Head>
-			<body>
+			<link rel="preconnect" href="https://fonts.googleapis.com" />
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='anonymous'/>
+			<link
+				href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+				rel="stylesheet"
+			/>
+			<Head />
+			<body className="bg-white dark:bg-slate-900">
 				<Main />
 				<NextScript />
 			</body>
 		</Html>
 	);
-};
-
-const getInitialProps = async (ctx: any) => {
-	const initialProps = await Document.getInitialProps(ctx);
-	return {
-		...initialProps,
-		styles: React.Children.toArray([initialProps?.styles]),
-	};
 };
 
 export default MyDocument;
