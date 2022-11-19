@@ -61,7 +61,7 @@ export const Button: FC<Props> = ({
 	return (
 		<button
 			className={clsx(
-				'flex gap-2 p-2 rounded-lg disabled:bg-slate-400 transition-transform active:scale-95',
+				'flex gap-2 p-2 rounded-lg items-center disabled:bg-slate-400 transition-transform active:scale-95',
 				{
 					['bg-blue-500 hover:bg-blue-700 text-white']:
 						variant === ButtonVariants.primary,
