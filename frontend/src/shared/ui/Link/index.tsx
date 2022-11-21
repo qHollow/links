@@ -19,7 +19,7 @@ export const Link: FC<Props> = ({ className, href, children }) => {
 		<NextLink
 			href={href}
 			className={clsx(
-				'text-xl text-slate-500 hover:text-slate-700 focus:text-slate-700 dark:text-slate-400 dark:hover:text-slate-700 hover:underline hover:underline-offset-2 ',
+				'text-xl text-slate-500 hover:text-slate-700 focus:text-slate-700 dark:text-slate-400 dark:hover:text-slate-700 hover:underline hover:underline-offset-2 hover:transition-colors',
 				className
 			)}
 		>
