@@ -16,7 +16,7 @@ const MyDocument = () => {
 				rel="stylesheet"
 			/>
 			<Head />
-			<body className="bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-400">
+			<body className="bg-slate-50 dark:bg-slate-900 text-slate-700 dark:text-slate-400">
 				<Main />
 				<NextScript />
 			</body>
