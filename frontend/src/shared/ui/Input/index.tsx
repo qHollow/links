@@ -3,7 +3,7 @@ import { FC, InputHTMLAttributes } from 'react';
 
 interface Props extends InputHTMLAttributes<HTMLInputElement> {
 	/**
-	 * classNames applied to the root element
+	 * className applied to the root element
 	 */
 	className?: string;
 	/**

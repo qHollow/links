@@ -16,7 +16,7 @@ export enum ButtonSizes {
 
 interface Props {
 	/**
-	 * classNames applied to the root element
+	 * className applied to the root element
 	 */
 	className?: string;
 	/**

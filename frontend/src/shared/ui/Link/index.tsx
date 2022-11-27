@@ -4,7 +4,7 @@ import { FC } from 'react';
 
 interface Props {
 	/**
-	 * classNames applied to the root element
+	 * className applied to the root element
 	 */
 	className?: string;
 	/**
