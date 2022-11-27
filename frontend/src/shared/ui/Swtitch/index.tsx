@@ -5,7 +5,7 @@ import { FC } from 'react';
 
 interface Props extends SwitchProps {
 	/**
-	 * classNames applied to the root element
+	 * className applied to the root element
 	 */
 	className?: string;
 }
